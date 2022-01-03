@@ -16,6 +16,7 @@ import { NotFoundComponent } from './modules/not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { FormularioContactoComponent } from './modules/home/components/formulario-contacto/formulario-contacto.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MatIconModule } from '@angular/material/icon';
     FooterComponent,
     HeaderComponent,
     ModalsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    FormularioContactoComponent
   ],
   imports: [
     BrowserModule,
